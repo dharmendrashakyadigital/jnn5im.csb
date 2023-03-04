@@ -1,0 +1,151 @@
+.learning-image {
+  padding: 2em;
+}
+
+.hello-heading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.all-section-box {
+  margin-top: 2em;
+  display: flex;
+  margin-left: 1.5em;
+  text-align: center;
+}
+
+.all-section-box h3,
+p {
+  width: 80%;
+
+  margin-left: 3em;
+}
+
+.learning-chowk img {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.learning-chowk img:hover {
+  background-color: indianred;
+}
+
+.btn-6 {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+}
+
+.btn-thirding {
+  background-color: white;
+  color: black;
+  border: 1px solid #f44336;
+}
+
+.btn-thirding:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+/* <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< first box>>>>>>>>>>>>> --> */
+
+.mySlides {
+  margin-top: 5em;
+}
+
+.slideshow-container {
+  max-width: 1600px;
+
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
